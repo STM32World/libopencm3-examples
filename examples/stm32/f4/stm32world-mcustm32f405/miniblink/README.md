@@ -2,8 +2,8 @@
 
 This is the smallest-possible example program using libopencm3.
 
-It's intended for the ST STM32F4DISCOVERY eval board. It should blink
-the GREEN LED on the board.
+It's intended for the STM32World MCUSTM32F405 eval board. It should blink
+the BLUE LED on the board.
 
 ## Board connections
 
