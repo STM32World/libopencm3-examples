@@ -21,5 +21,7 @@ BINARY = usart_stdio
 
 LDSCRIPT = ../mcustm32f405.ld
 
+
 include ../../Makefile.include
 
+OPT = -Og

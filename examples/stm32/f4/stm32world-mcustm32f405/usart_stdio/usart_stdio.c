@@ -27,6 +27,7 @@ void get_buffered_line(void);
  */
 #define BUFLEN 127
 
+uint32_t now = 0;
 uint32_t systick = 0;
 uint32_t last_tick = 0;
 uint32_t last_blink = 0;
@@ -102,11 +103,9 @@ int main(void)
     gpio_setup();
     usart_setup();
 
-    /* Blink the LED (PD12) on the board with every transmitted byte. */
-    while (1)
-    {
+    while (1) {
 
-        uint32_t now = systick;
+        now = systick;
 
         if (now - last_blink >= 500)
         {

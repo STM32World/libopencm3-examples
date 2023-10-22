@@ -1,9 +1,5 @@
 {
-    "files.associations": {
-        "*.js": "javascript",
-        "gpio.h": "c",
-        "systick.h": "c",
-        "common.h": "c",
-        "nvic.h": "c"
-    }
+    "stm32-for-vscode.openOCDPath": "/home/lth/.config/Code/User/globalStorage/bmd.stm32-for-vscode/@xpack-dev-tools/openocd/0.12.0-2.1/.content/bin/openocd",
+    "cortex-debug.armToolchainPath": "/home/lth/.config/Code/User/globalStorage/bmd.stm32-for-vscode/@xpack-dev-tools/arm-none-eabi-gcc/12.3.1-1.2.1/.content/bin",
+    "cortex-debug.openocdPath": "/home/lth/.config/Code/User/globalStorage/bmd.stm32-for-vscode/@xpack-dev-tools/openocd/0.12.0-2.1/.content/bin/openocd"
 }
