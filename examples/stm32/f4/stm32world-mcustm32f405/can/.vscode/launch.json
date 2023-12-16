@@ -6,7 +6,6 @@
     "configurations": [
         {
             "type": "cortex-debug",
-            "preLaunchCommands": ["make clean V=1", "make OPT=-Og V=1"],
             "request": "launch",
             "name": "Debug (OpenOCD)",
             "servertype": "openocd",
